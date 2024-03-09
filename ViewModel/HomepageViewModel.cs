@@ -66,8 +66,8 @@ namespace BahiKitab.ViewModel
             {
                 Icon = new PackIconFontAwesome() { Kind = PackIconFontAwesomeKind.CoffeeSolid },
                 Label = "Inventory",
-                NavigationType = typeof(AdminView),
-                NavigationDestination = new Uri("RenderView/AdminView.xaml", UriKind.RelativeOrAbsolute)
+                NavigationType = typeof(InventoryView),
+                NavigationDestination = new Uri("RenderView/InventoryView.xaml", UriKind.RelativeOrAbsolute)
             });
             this.Menu.Add(new MenuItem()
             {
