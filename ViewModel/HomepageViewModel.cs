@@ -89,7 +89,7 @@ namespace BahiKitab.ViewModel
                 Icon = new PackIconFontAwesome() { Kind = PackIconFontAwesomeKind.CogSolid },
                 Label = "Settings",
                 NavigationType = typeof(AdminView),
-                NavigationDestination = new Uri("RenderView/AdminView.xaml", UriKind.RelativeOrAbsolute)
+                NavigationDestination = new Uri("RenderView/SettingsPage.xaml", UriKind.RelativeOrAbsolute)
             });
             this.OptionsMenu.Add(new MenuItem()
             {

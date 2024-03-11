@@ -23,6 +23,13 @@ namespace BahiKitab.RenderView
         public SettingsPage()
         {
             InitializeComponent();
+            this.TypeDD.Items.Add("Text");
+            this.TypeDD.Items.Add("Bool");
+        }
+
+        private void Add_Head(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
